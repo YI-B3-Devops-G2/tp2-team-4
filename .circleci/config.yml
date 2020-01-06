@@ -34,7 +34,7 @@ jobs:
       - run:
           name: Publish Docker Image to Docker Hub
           command: |
-            echo "Aquilusix38!" | docker login -u "elricgumbau" --password-stdin
+            echo "*****" | docker login -u "elricgumbau" --password-stdin
             docker push $IMAGE_NAME:latest
 workflows:
   version: 2
