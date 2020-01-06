@@ -19,7 +19,7 @@ const pg = new Client({
   port: 5432,
 })
 
-// Instanciate object rd
+// Instanciate object rd 
 const rd = redis.createClient({ host: 'docker-tp-redis' });
 
 // Use express
